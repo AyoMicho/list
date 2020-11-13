@@ -1,0 +1,87 @@
+body{
+    font-size: 16px;
+    background: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.one{
+    margin-left: 3rem;
+}
+
+.inputing{
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+#add{
+    font-size: 1.5rem;
+    background-color: lime;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+#add:active{
+    transform: scale(0.95);
+}
+
+.two{
+    margin-top: 1rem;
+}
+
+#list{
+    margin: 1rem 0 0.5rem 0;
+    border-bottom: solid white 3px;
+}
+
+#input_list{
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+}
+
+/*.edit{
+    border: none;
+    color: blue;
+    font-size: 1.3rem;
+    background: black;
+    cursor: pointer;
+    outline: none;
+}*/
+
+.delete{
+    border: none;
+    color: red;
+    font-size: 1.3rem;
+    background: black;
+    cursor: pointer;
+    outline: none;
+}
+
+@media screen and (max-width: 777px){
+    body{
+        font-size: 13px;
+    }
+    
+    
+}
